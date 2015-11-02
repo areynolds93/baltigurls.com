@@ -913,13 +913,13 @@ object {
 ## Mobile
 --------------------------------------------------------------*/
 
-@media only screen (min-width: 100px) and (max-width: 500px) { 
+@media (min-width: 100px) and (max-width: 500px) { 
 	
 
 .social-media,
 .fa {
-	width: 40px;
-	font-size: 30px;
+	width: 50px;
+	font-size: 40px;
 	text-align:center;
 	} 
 	
@@ -936,7 +936,7 @@ object {
 	
 .coming-soon {
 	
-	font-size: 50px;
+	font-size: 35px;
 	font-weight:bold;
 	color: white;
 	text-decoration:line-through;
@@ -949,9 +949,26 @@ object {
 		padding-top: 100px;
 		padding-bottom: 100px;
 		}	
+		
+.image-logo,
+img {
+	
+	height: 100%;
+	width: 100%;
+	float: left;
+	display: inline-block;
+	
+	}
+	
+.info	
+p {
+    margin-bottom: 1.5em;
+    font-size: 1.8em;
+    color: white;
+}
 }
 
-@media only screen (min-width: 501px){
+@media (min-width: 501px){
 	
 		.site-main {
 		
@@ -1077,6 +1094,6 @@ p {
     margin-bottom: 1.5em;
     font-size: 14px;
     color: white;
-    width: 500px;
+    width: 400px;
 }
 	} 
