@@ -913,7 +913,7 @@ object {
 ## Mobile
 --------------------------------------------------------------*/
 
-@media (min-width: 100px) and (max-width: 500px) { 
+@media only screen (min-width: 100px) and (max-width: 500px) { 
 	
 
 .social-media,
@@ -951,7 +951,7 @@ object {
 		}	
 }
 
-@media (min-width: 501px){
+@media only screen (min-width: 501px){
 	
 		.site-main {
 		
@@ -1020,7 +1020,7 @@ p {
 		
 	}
 
-@media (min-width: 950px) {
+@media only screen (min-width: 950px) {
 	
 	.site-main {
 		
